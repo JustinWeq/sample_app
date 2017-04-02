@@ -9,7 +9,13 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 
-gem 'bcrypt',         '3.1.11'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+gem 'faker', '1.6.6'
+
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'
 
 #Use the bootstrap gem
 gem 'bootstrap-sass'
